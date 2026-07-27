@@ -21,11 +21,11 @@ const Menu = () => {
 
   const handleMenuClick = (index) => setSelectedMenu(index);
   const handleProfileClick = () => setIsProfileDropdownOpen(!isProfileDropdownOpen);
-  const handleLogout = () => {
-    localStorage.removeItem("token");
-    window.location.href = "http://localhost:3000";
-  };
 
+ const handleLogout = () => {
+  localStorage.removeItem("token");
+  window.location.href = "https://zerodha-clone-1-1780.onrender.com";
+};
   const menuClass = "menu";
   const activeMenuClass = "menu selected";
 

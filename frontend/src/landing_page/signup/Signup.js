@@ -15,8 +15,8 @@ function Signup() {
       return;
     }
     try {
-      const res = await axios.post("http://localhost:3002/login", { mobile });
-      window.location.href = `http://localhost:3001?token=${res.data.token}`;
+      const res = await axios.post("https://zerodha-clone-vr52.onrender.com/login", { mobile });
+window.location.href = `https://arushijain18-zerodha-dashboard.onrender.com?token=${res.data.token}`;
     } catch (err) {
       alert("Login failed. Try again.");
     }
