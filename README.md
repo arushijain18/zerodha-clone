@@ -155,6 +155,11 @@ Built as a learning project to recreate Zerodha's UI/UX and core trading-dashboa
 
 This project is for educational purposes only.
 
+## Deployment Link
+https://zerodha-clone-1-1780.onrender.com
+
 
 ## Author
 made by Arushi Jain
+
+
